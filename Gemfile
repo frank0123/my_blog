@@ -1,8 +1,4 @@
-if ENV['RUBYTAOBAO']
-  source 'http://ruby.taobao.org'
-else
-  source 'https://rubygems.org'
-end
+source 'http://ruby.taobao.org'
 
 gem 'rails', '4.1.9'
 #gem 'sprockets', '2.12.1'
@@ -14,6 +10,7 @@ gem 'foundation-rails', '~> 5.5.1'
 gem 'foundation-icons-sass-rails'
 gem 'font-awesome-sass'
 
+gem 'thin'
 gem 'jbuilder'
 
 gem 'mongoid'
