@@ -5,6 +5,6 @@ class PostMailer < ActionMailer::Base
 
   def new(post_id, to)
     @post = Post.find(post_id)
-    mail to: to, subject: '客官, 新博客来了'
+    mail to: to, subject: '哟，骚年, 要弄新博客啦？'
   end
 end
