@@ -28,6 +28,10 @@ module WBlog
       g.test_framework :rspec, view_specs: false
     end
 
+    # assets precompile
+    config.assets.compile = true
+    config.assets.precompile =  ['*.js', '*.css', '*.css.erb', '.png']
+
     # action mailer
     config.action_mailer.preview_path = "#{Rails.root}/spec/mailers/previews"
   end
